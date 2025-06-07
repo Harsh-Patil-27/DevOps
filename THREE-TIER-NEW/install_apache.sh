@@ -281,7 +281,7 @@ cat << 'EOF' > /var/www/html/index.html
             <h1>Terraform Three-Tier Architecture</h1>
             <div class="name">Harsh Patil</div>
             <p>Infrastructure as Code with Terraform</p>
-            <a href="https://github.com/harshpatil/three-tier-aws-terraform" class="github-btn" target="_blank">
+            <a href="https://github.com/Harsh-Patil-27/Devops/tree/main/THREE-TIER-NEW" class="github-btn" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
             </a>
         </header>
