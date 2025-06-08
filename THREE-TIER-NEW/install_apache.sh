@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # Update package lists
 apt update -y
@@ -11,7 +11,7 @@ systemctl start apache2
 systemctl enable apache2
 
 # Create detailed index.html page
-cat << 'EOF' > /var/www/html/index.html
+cat > /var/www/html/index.html << 'EOF'
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -431,3 +431,7 @@ cat << 'EOF' > /var/www/html/index.html
 </body>
 </html>
 EOF
+
+# Set proper permissions
+chown -R www-data:www-data /var/www/html/
+chmod -R 755 /var/www/html/
