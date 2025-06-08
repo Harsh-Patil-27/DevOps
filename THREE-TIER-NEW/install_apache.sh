@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Update package lists
 apt update -y
